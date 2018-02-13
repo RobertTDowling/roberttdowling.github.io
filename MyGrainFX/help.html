@@ -1,0 +1,212 @@
+<HTML>
+<head>
+  <title>MyGrainFX Help</title>
+</head>
+<body>
+
+<p>
+Version 1.0 - Feb 2018
+
+<h1>MyGrainFX Help</h1>
+
+<h2>Overview</h2>
+
+<h2>The Big Picture</h2>
+
+<p>MyGrainFX uses <b>Granular Synthesis</b> to make wonderful sounds
+from your own voice recordings.  It uses different ways to chop up the
+recordings into little segments called sound <b>grains.</b>  Grains are larger than
+the digital samples normally manipulated by computers.  Each grain
+is like a little chunk of audio, long enough to have particular, unique sound,
+but short enough that adding or removing one here or there does not disturb the overall
+continuity of the recoding.
+    
+
+<h2>Granular Syntesis</h2>
+    
+<p>If you <a href="https://www.google.com/search?q=granular+synthesis">google Granular Synthesis</a>
+   you will find hundreds of articles on the subject.
+
+<p>Here is the <a href="https://en.wikipedia.org/wiki/Granular_synthesis">
+   Wikipedia article</a> on Granular Synthesis.
+
+<h2>The Controls</h2>
+
+<br><img src="images/Screenshot_ui.png" width=330>
+
+  <hr>
+  <h3> Recording Controls</h3>
+    <img src="images/record_bar.png" width=90%> 
+    <p>
+    
+    <br><img src="images/ic_rec.png" width=24> 
+    Record up to 5 seconds from the microphone
+    
+    <br><img src="images/ic_stop.png" width=24> 
+    Stop recording, or stop any play back
+    
+    <br><img src="images/ic_play.png" width=24> 
+    Play back normally
+    
+    <br><img src="images/ic_play2.png" width=24> 
+    Play back at half speed
+    
+    <p>Below the controls is the recording length in 1/1000 seconds (ms).
+      In the image above, the recording is 1.76 seconds.
+
+    <p>When recording starts, most of the controls are replaced with a
+    microphone
+
+    <br><img src="images/Screenshot_rec.png" width=90%>
+
+  <hr>
+  <h3>Grain Type and Size Controls</h3>
+    <img src="images/grain_size_ctrls.png" width=90%> 
+    <p>
+    
+    <br><img src="images/atom_algorithm.png" width=100> 
+    Select the <b>Atomic</b> algorithm, where grains are all of equal length
+    
+    <br><img src="images/smooth_algorithm.png" width=100> 
+    Select the <b>Smooth</b> algorithm, where grains have different lengths and sound smoother together
+    
+    <br><img src="images/ic_music.png" width=24> 
+    Play a little melody
+    
+    <br><img src="images/ic_playrand.png" width=24> 
+    Play grains randomly while holding down
+
+    <p><img src="images/grain_size_3ms.png" width=50%> 
+    <br>Change size of grains. The size of the grains is shown above in milliseconds (ms). 
+    
+    <p>Note: Changing the size of the grains when the Smooth
+    algorithm is selected can take a long time, so the size changes only when you release
+    the control.
+    
+  <hr>
+  <h3>Grain Repeating Effects</h3>
+      
+    <br><img src="images/ic_time.png" width=24> 
+    Play stretching time
+    
+    <br><img src="images/ic_music_note.png" width=24> 
+    Play shifting pitch
+
+    <p><img src="images/grain_count_2.png" width=50%> 
+    <br>Control time stretch or pitch shift.  Move the control to the left speed up or raise the pitch, to the right to slow down or lower the pitch.
+    
+
+ <h3>Scratch Bar and Graph</h3>
+
+    <p><img src="images/scratchbar.png" width=50%> 
+
+    <br>Touch and hold anywhere on graph to play grains.  Move left and right to "scratch"
+    like a DJ.
+      
+<h2>Tips for Better Recordings</h2>
+    
+    <ul>
+        <li>Avoid having silence at start or end of recoding.  Start talking right away and be ready to hit stop as soon as you can.
+        <li>Make sure you talk as loud as you would on the phone.  Not so loud you distort, and not so quiet you can't be heard.
+    </ul>        
+
+<hr>
+<h1><a id="ideas">Fun Things To Try</a></h1>
+  <h2>Robot Voice</h2>
+  <ul>
+    <li>Set the grain size small, around 3ms</li>
+      <br><img src="images/grain_size_3ms.png" width=75%>
+    <li>Set atomic algorithm</li>
+      <br><img src="images/atom_algorithm.png" width=30%>
+    <li>Play
+      <img src="images/ic_time.png" width=7%> stretching time,
+      <img src="images/ic_music_note.png" width=7%> shifting pitch or
+      <br><img src="images/scratchbar.png" width=30%> scratching</li>
+  </ul>
+  The pitch of the Robot Voice changes with the size of grain.
+
+  <h2>Sing-Song Voice</h2>
+  <ul>
+    <li>Set the grain size small, around 3ms </li>
+      <br><img src="images/grain_size_3ms.png" width=75%>
+    <li>Set smooth algorithm</li>
+      <br><img src="images/smooth_algorithm.png" width=30%>
+    <li><img src="images/scratchbar.png" width=30%> Scratch slowly or
+      <br>play <img src="images/ic_time.png" width=7%> stretching time</li>
+  </ul>
+    
+  <p> Both the Robot and Sing-Song Voice are a direct result of size of the grains.
+      In the case of the atomic algorithm, all the grains are the exact same size, 
+      so when they are played back-to-back, the pitch corresponding to the
+      grain size appears as a droning tone.  In the case of the smooth algorithm,
+      the grains are not all the exact same size, and the small variations in length
+      create similar variations in pitch which 
+  
+  <p>If the grain size corresponds to a pitch in the audible vocal range,
+      300-3000Hz, it can sound like singing.
+  
+  <h2>Max Headroom</h2>
+  <ul>
+    <li>Set the grain very large
+      <br><img src="images/grain_size_80ms.png" width=75%>
+    <li><img src="images/scratchbar.png" width=30%> Scratc or
+      <br>play <img src="images/ic_time.png" width=7%> stretching time</li>
+  </ul>
+  
+  <h2>Scratching Ideas</h2>
+
+  <img src="images/scratchbar.png" width=30%><br>
+  The scratch bar can be used in creative ways
+  <ul>
+    <li>Try to scratch forward at exactly the right speed to play normally</li>
+    <li>Try to scratch backward as the same speed</li>
+    <li>Put those together to get DJ FX</li>
+    <li>Hold your finger on the scratch bar to get a sustained effect</li>
+    <ul>
+      <li>If the grain size is small, it will be more of whistle or hum</li>
+      <li>If the grain size is large, it will be more of a sample repetition effect</li>
+    </ul>
+    <li>Hold you find on the scratch bar and roll it slightly left and right to get a vibrato effect between two
+      pitches or samples</li>
+    <li>Type typing on the scratch bar</li>
+  </ul>
+
+  <h2>Melody Ideas</h2>
+    
+  <p>The melody play <img src="images/ic_music_note.png" width=7%>
+    works best with short samples less than 1/2 a second in length.
+
+  <h2>Texture Ideas</h2>
+  <ul>
+    <li>Set the grain around 20ms (50Hz)</li>
+      <br><img src="images/grain_size_20ms.png" width=75%>
+    <li>Set the grain count high</li>
+      <br><img src="images/grain_count_5.png" width=75%>
+    <li>Experiment with
+      <br><img src="images/atom_algorithm.png" width=30%> atomic and
+      <br><img src="images/smooth_algorithm.png" width=30%> smooth
+      grain boundaries</li>
+    <li>Play
+      <img src="images/ic_time.png" width=7%> stretching time, or
+      <br><img src="images/scratchbar.png" width=30%> scratching</li>
+    
+  </ul>
+  With a moderate grain size, very high grain repetition (big time stretches) give a slowly shifting texture used in 
+  a lot of ambient music.
+  
+  <h2>Gender Changer</h2>
+  <ul>
+    <li>Set the grain around 20ms (50Hz)</li>
+      <br><img src="images/grain_size_20ms.png" width=75%>
+    <li>Set
+      <img src="images/smooth_algorithm.png" width=30%>
+      smooth grain boundaries</li>
+    <li>Play 
+      <img src="images/ic_music_note.png" width=7%>
+      shifting pitch</li>
+  </ul>
+  This effect does not work as well as some of the others,
+  but with small pitch shifts, you can imagine your words in other people's voices.
+
+    
+</body>
