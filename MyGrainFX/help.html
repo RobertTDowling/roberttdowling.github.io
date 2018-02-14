@@ -5,7 +5,7 @@
 <body>
 
 <p>
-Version 1.0 - Feb 2018
+Version 1.11 - Feb 2018
 
 <h1>MyGrainFX Help</h1>
 
@@ -32,24 +32,24 @@ continuity of the recoding.
 
 <h2>The Controls</h2>
 
-<br><img src="images/Screenshot_ui.png" width=330>
+<img src="images/Screenshot_ui.png" width=330  border=1>
 
   <hr>
   <h3> Recording Controls</h3>
-    <img src="images/record_bar.png" width=90%> 
+    <img src="images/record_bar.png" width=90% border=1> 
     <p>
     
     <br><img src="images/ic_rec.png" width=24> 
     Record up to 5 seconds from the microphone
     
     <br><img src="images/ic_stop.png" width=24> 
-    Stop recording, or stop any play back
+    Stop recording, or stop any playback
     
     <br><img src="images/ic_play.png" width=24> 
-    Play back normally
+    Playback normally
     
     <br><img src="images/ic_play2.png" width=24> 
-    Play back at half speed
+    Playback at half speed
     
     <p>Below the controls is the recording length in 1/1000 seconds (ms).
       In the image above, the recording is 1.76 seconds.
@@ -57,18 +57,18 @@ continuity of the recoding.
     <p>When recording starts, most of the controls are replaced with a
     microphone
 
-    <br><img src="images/Screenshot_rec.png" width=90%>
+    <br><img src="images/Screenshot_rec.png" width=90% border=1>
 
   <hr>
   <h3>Grain Type and Size Controls</h3>
-    <img src="images/grain_size_ctrls.png" width=90%> 
+    <img src="images/grain_size_ctrls.png" width=90% border=1> 
     <p>
     
     <br><img src="images/atom_algorithm.png" width=100> 
-    Select the <b>Atomic</b> algorithm, where grains are all of equal length
+    Select the <b>Atomic</b> type: grains are all of equal length
     
     <br><img src="images/smooth_algorithm.png" width=100> 
-    Select the <b>Smooth</b> algorithm, where grains have different lengths and sound smoother together
+    Select the <b>Smooth</b> type: grains have different lengths and sound smoother together
     
     <br><img src="images/ic_music.png" width=24> 
     Play a little melody
@@ -76,15 +76,17 @@ continuity of the recoding.
     <br><img src="images/ic_playrand.png" width=24> 
     Play grains randomly while holding down
 
-    <p><img src="images/grain_size_3ms.png" width=50%> 
-    <br>Change size of grains. The size of the grains is shown above in milliseconds (ms). 
+    <p><img src="images/grain_size_3ms.png" width=75%> 
+    <br>Change size of grains. The size of the grains is shown above in ms and frequency in Hz. 
     
     <p>Note: Changing the size of the grains when the Smooth
-    algorithm is selected can take a long time, so the size changes only when you release
-    the control.
+    algorithm is selected can take a long time, so the size
+    updates only when you release the control.
     
   <hr>
   <h3>Grain Repeating Effects</h3>
+    <img src="images/grain_count_ctrls.png" width=90% border=1> 
+    <p>
       
     <br><img src="images/ic_time.png" width=24> 
     Play stretching time
@@ -92,8 +94,9 @@ continuity of the recoding.
     <br><img src="images/ic_music_note.png" width=24> 
     Play shifting pitch
 
-    <p><img src="images/grain_count_2.png" width=50%> 
-    <br>Control time stretch or pitch shift.  Move the control to the left speed up or raise the pitch, to the right to slow down or lower the pitch.
+    <p><img src="images/grain_count_2.png" width=75%> 
+    <br>Control time stretch or pitch shift by repeating or dropping grains.
+        Move the control to the left speed up or raise the pitch, to the right to slow down or lower the pitch.
     
 
  <h3>Scratch Bar and Graph</h3>
@@ -107,7 +110,8 @@ continuity of the recoding.
     
     <ul>
         <li>Avoid having silence at start or end of recoding.  Start talking right away and be ready to hit stop as soon as you can.
-        <li>Make sure you talk as loud as you would on the phone.  Not so loud you distort, and not so quiet you can't be heard.
+        <li>Make sure you talk as loud as you would on the phone:
+          not so loud that you distort, and not so quiet you can't be heard.
     </ul>        
 
 <hr>
@@ -135,24 +139,25 @@ continuity of the recoding.
       <br>play <img src="images/ic_time.png" width=7%> stretching time</li>
   </ul>
     
-  <p> Both the Robot and Sing-Song Voice are a direct result of size of the grains.
-      In the case of the atomic algorithm, all the grains are the exact same size, 
+  <p> Both the Robot and Sing-Song Voice are a direct result of grain size.
+      Atomic grains are all the same size, 
       so when they are played back-to-back, the pitch corresponding to the
-      grain size appears as a droning tone.  In the case of the smooth algorithm,
-      the grains are not all the exact same size, and the small variations in length
-      create similar variations in pitch which 
+      grain size sounds as a droning tone.  Smooth grains are not all
+      the same size, and the small variations in length
+      create similar variations in pitch which "sings" when played.
   
-  <p>If the grain size corresponds to a pitch in the audible vocal range,
-      300-3000Hz, it can sound like singing.
-  
-  <h2>Max Headroom</h2>
+  <h2>CD Skip Glitch</h2>
   <ul>
     <li>Set the grain very large
       <br><img src="images/grain_size_80ms.png" width=75%>
-    <li><img src="images/scratchbar.png" width=30%> Scratc or
+    <li>Set the grain count high</li>
+      <br><img src="images/grain_count_5.png" width=75%>
+    <li><img src="images/scratchbar.png" width=30%> Scratch or
       <br>play <img src="images/ic_time.png" width=7%> stretching time</li>
   </ul>
   
+  Playback will repeat segments over and over like a CD skipping.
+    
   <h2>Scratching Ideas</h2>
 
   <img src="images/scratchbar.png" width=30%><br>
@@ -164,16 +169,20 @@ continuity of the recoding.
     <li>Hold your finger on the scratch bar to get a sustained effect</li>
     <ul>
       <li>If the grain size is small, it will be more of whistle or hum</li>
-      <li>If the grain size is large, it will be more of a sample repetition effect</li>
+      <li>If the grain size is large, it will be more of CD skip effect</li>
     </ul>
     <li>Hold you find on the scratch bar and roll it slightly left and right to get a vibrato effect between two
       pitches or samples</li>
-    <li>Type typing on the scratch bar</li>
+     <ul>
+      <li>Roll slowly</li>
+      <li>Roll quickly</li>
+    </ul>
+   <li>Type "typing" on the scratch bar</li>
   </ul>
 
-  <h2>Melody Ideas</h2>
+  <h2>Melody Tip</h2>
     
-  <p>The melody play <img src="images/ic_music_note.png" width=7%>
+  <p>The melody play <img src="images/ic_music.png" width=7%>
     works best with short samples less than 1/2 a second in length.
 
   <h2>Texture Ideas</h2>
@@ -206,7 +215,7 @@ continuity of the recoding.
       shifting pitch</li>
   </ul>
   This effect does not work as well as some of the others,
-  but with small pitch shifts, you can imagine your words in other people's voices.
+  but with small pitch shifts, you can imagine your words in other voices.
 
     
 </body>
